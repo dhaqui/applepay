@@ -23,7 +23,7 @@ async function setupApplepay() {
 
     const paymentRequest = {
       countryCode,
-      currencyCode: 'LSL',
+      currencyCode: 'BWP',
       merchantCapabilities,
       supportedNetworks,
       requiredBillingContactFields: [
