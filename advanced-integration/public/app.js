@@ -23,7 +23,7 @@ async function setupApplepay() {
 
     const paymentRequest = {
       countryCode,
-      currencyCode: 'ZMW',
+      currencyCode: 'UGX',
       merchantCapabilities,
       supportedNetworks,
       requiredBillingContactFields: [
