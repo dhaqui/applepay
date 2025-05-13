@@ -23,7 +23,7 @@ async function setupApplepay() {
 
     const paymentRequest = {
       countryCode,
-      currencyCode: 'ZAR',
+      currencyCode: 'XOF',
       merchantCapabilities,
       supportedNetworks,
       requiredBillingContactFields: [
