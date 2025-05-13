@@ -20,7 +20,7 @@ export async function createOrder() {
       purchase_units: [
         {
           amount: {
-            currency_code: "USD",
+            currency_code: "MZN",
             value: purchaseAmount,
           },
           payee: {
