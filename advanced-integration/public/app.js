@@ -23,7 +23,7 @@ async function setupApplepay() {
 
     const paymentRequest = {
       countryCode,
-      currencyCode: 'NGN',
+      currencyCode: 'TND',
       merchantCapabilities,
       supportedNetworks,
       requiredBillingContactFields: [
