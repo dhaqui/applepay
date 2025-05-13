@@ -23,7 +23,7 @@ async function setupApplepay() {
 
     const paymentRequest = {
       countryCode,
-      currencyCode: 'GHS',
+      currencyCode: 'NGN',
       merchantCapabilities,
       supportedNetworks,
       requiredBillingContactFields: [
